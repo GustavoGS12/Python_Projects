@@ -1,4 +1,7 @@
 # Função para calcular o custo de um anúncio
+def valor_de_sobra(valor_total, porcentagem):
+    return (valor_total/100) * porcentagem
+
 def calcular_custo_anuncio(preco_produto, porcentagem_comissao, lucro_desejado):
     comissao = (preco_produto * porcentagem_comissao) / 100
     custo_total = preco_produto + comissao + lucro_desejado
