@@ -1,10 +1,12 @@
-x = list(input("Digite o número binário:"))
-y = len(x) - 1
-result = []
+def conversao():
 
-for i in x:
-    result.append(int((int(i)*(2**y))))
-    y -= 1
+    numero = list(input("Digite o número binário: "))
+    reducao = len(numero) - 1
+    resultado =[]
+    for x in numero:
+        resultado.append(int((int(x)*(2**reducao))))
+        reducao -= 1
 
+    return sum(resultado)
 
-print(sum(result))
+print(conversao())
