@@ -1,0 +1,8 @@
+README.md
+setup.py
+Bin2Dec/Bin2Dec.py
+Bin2Dec/__init__.py
+bin2dec.egg-info/PKG-INFO
+bin2dec.egg-info/SOURCES.txt
+bin2dec.egg-info/dependency_links.txt
+bin2dec.egg-info/top_level.txt

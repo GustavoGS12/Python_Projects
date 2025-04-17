@@ -10,11 +10,11 @@ setup(
     name="bin2dec",
     version="0.0.1",
     author="GustavoGS",
-    author_email="ggs.gustavo.dev@gmail.com,
+    author_email="ggs.gustavo.dev@gmail.com",
     description="Convertor de números binário para decimal",
     long_description=page_description,
     long_description_content_type="text/markdown",
-    url="my_github_repository_project_link"
+    url="https://github.com/GustavoGS12?tab=repositories",
     packages=find_packages(),
     python_requires='>=3.0',
 )
