@@ -8,13 +8,13 @@ with open("requirements.txt") as f:
 
 setup(
     name="bin2dec",
-    version="0.0.1",
+    version="0.0.2",
     author="GustavoGS",
     author_email="ggs.gustavo.dev@gmail.com",
     description="Convertor de números binário para decimal",
     long_description=page_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/GustavoGS12?tab=repositories",
+    url="https://github.com/GustavoGS12/Python_Projects/tree/main/Desafios%20DIO/Bin2Dec_Package",
     packages=find_packages(),
     python_requires='>=3.0',
 )
