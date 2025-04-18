@@ -8,7 +8,7 @@ with open("requirements.txt") as f:
 
 setup(
     name="bin2dec",
-    version="0.0.2",
+    version="0.0.3",
     author="GustavoGS",
     author_email="ggs.gustavo.dev@gmail.com",
     description="Convertor de números binário para decimal",

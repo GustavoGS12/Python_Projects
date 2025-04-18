@@ -7,6 +7,4 @@ def conversao():
         resultado.append(int((int(x)*(2**reducao))))
         reducao -= 1
 
-    return sum(resultado)
-
-print(conversao())
+    return print(sum(resultado))
