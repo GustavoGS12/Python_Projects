@@ -7,8 +7,8 @@ with open("requirements.txt") as f:
     requirements = f.read().splitlines()
 
 setup(
-    name="bin2dec",
-    version="0.0.3",
+    name="bin2dec12",
+    version="0.0.5",
     author="GustavoGS",
     author_email="ggs.gustavo.dev@gmail.com",
     description="Convertor de números binário para decimal",
